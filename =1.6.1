@@ -1,0 +1,121 @@
+Collecting sentence-transformers
+  Downloading sentence_transformers-5.1.0-py3-none-any.whl.metadata (16 kB)
+Collecting transformers
+  Downloading transformers-4.55.4-py3-none-any.whl.metadata (41 kB)
+Collecting torch
+  Downloading torch-2.8.0-cp310-none-macosx_11_0_arm64.whl.metadata (30 kB)
+Collecting pytrec-eval
+  Downloading pytrec_eval-0.5.tar.gz (15 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pyjnius
+  Downloading pyjnius-1.6.1-cp310-cp310-macosx_10_9_universal2.whl.metadata (10 kB)
+Collecting onnxruntime
+  Downloading onnxruntime-1.22.1-cp310-cp310-macosx_13_0_universal2.whl.metadata (4.6 kB)
+Requirement already satisfied: tqdm in /opt/anaconda3/envs/regulatoryrag/lib/python3.10/site-packages (from sentence-transformers) (4.67.1)
+Collecting scikit-learn (from sentence-transformers)
+  Downloading scikit_learn-1.7.1-cp310-cp310-macosx_12_0_arm64.whl.metadata (11 kB)
+Requirement already satisfied: scipy in /opt/anaconda3/envs/regulatoryrag/lib/python3.10/site-packages (from sentence-transformers) (1.15.2)
+Collecting huggingface-hub>=0.20.0 (from sentence-transformers)
+  Downloading huggingface_hub-0.34.4-py3-none-any.whl.metadata (14 kB)
+Collecting Pillow (from sentence-transformers)
+  Downloading pillow-11.3.0-cp310-cp310-macosx_11_0_arm64.whl.metadata (9.0 kB)
+Collecting typing_extensions>=4.5.0 (from sentence-transformers)
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting filelock (from transformers)
+  Downloading filelock-3.19.1-py3-none-any.whl.metadata (2.1 kB)
+Requirement already satisfied: numpy>=1.17 in /opt/anaconda3/envs/regulatoryrag/lib/python3.10/site-packages (from transformers) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /opt/anaconda3/envs/regulatoryrag/lib/python3.10/site-packages (from transformers) (25.0)
+Collecting pyyaml>=5.1 (from transformers)
+  Downloading PyYAML-6.0.2-cp310-cp310-macosx_11_0_arm64.whl.metadata (2.1 kB)
+Collecting regex!=2019.12.17 (from transformers)
+  Downloading regex-2025.7.34-cp310-cp310-macosx_11_0_arm64.whl.metadata (40 kB)
+Collecting requests (from transformers)
+  Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting tokenizers<0.22,>=0.21 (from transformers)
+  Downloading tokenizers-0.21.4-cp39-abi3-macosx_11_0_arm64.whl.metadata (6.7 kB)
+Collecting safetensors>=0.4.3 (from transformers)
+  Downloading safetensors-0.6.2-cp38-abi3-macosx_11_0_arm64.whl.metadata (4.1 kB)
+Collecting fsspec>=2023.5.0 (from huggingface-hub>=0.20.0->sentence-transformers)
+  Downloading fsspec-2025.7.0-py3-none-any.whl.metadata (12 kB)
+Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub>=0.20.0->sentence-transformers)
+  Downloading hf_xet-1.1.9-cp37-abi3-macosx_11_0_arm64.whl.metadata (4.7 kB)
+Collecting sympy>=1.13.3 (from torch)
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: networkx in /opt/anaconda3/envs/regulatoryrag/lib/python3.10/site-packages (from torch) (3.4.2)
+Collecting jinja2 (from torch)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting coloredlogs (from onnxruntime)
+  Downloading coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+Collecting flatbuffers (from onnxruntime)
+  Downloading flatbuffers-25.2.10-py2.py3-none-any.whl.metadata (875 bytes)
+Collecting protobuf (from onnxruntime)
+  Downloading protobuf-6.32.0-cp39-abi3-macosx_10_9_universal2.whl.metadata (593 bytes)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime)
+  Downloading humanfriendly-10.0-py2.py3-none-any.whl.metadata (9.2 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Downloading MarkupSafe-3.0.2-cp310-cp310-macosx_11_0_arm64.whl.metadata (4.0 kB)
+Collecting charset_normalizer<4,>=2 (from requests->transformers)
+  Downloading charset_normalizer-3.4.3-cp310-cp310-macosx_10_9_universal2.whl.metadata (36 kB)
+Collecting idna<4,>=2.5 (from requests->transformers)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests->transformers)
+  Downloading urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests->transformers)
+  Downloading certifi-2025.8.3-py3-none-any.whl.metadata (2.4 kB)
+Collecting joblib>=1.2.0 (from scikit-learn->sentence-transformers)
+  Downloading joblib-1.5.2-py3-none-any.whl.metadata (5.6 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn->sentence-transformers)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Downloading sentence_transformers-5.1.0-py3-none-any.whl (483 kB)
+Downloading transformers-4.55.4-py3-none-any.whl (11.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 15.5 MB/s  0:00:00
+Downloading huggingface_hub-0.34.4-py3-none-any.whl (561 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 561.5/561.5 kB 40.6 MB/s  0:00:00
+Downloading hf_xet-1.1.9-cp37-abi3-macosx_11_0_arm64.whl (2.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 22.7 MB/s  0:00:00
+Downloading tokenizers-0.21.4-cp39-abi3-macosx_11_0_arm64.whl (2.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.7/2.7 MB 32.6 MB/s  0:00:00
+Downloading torch-2.8.0-cp310-none-macosx_11_0_arm64.whl (73.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.6/73.6 MB 47.8 MB/s  0:00:01
+Downloading pyjnius-1.6.1-cp310-cp310-macosx_10_9_universal2.whl (512 kB)
+Downloading onnxruntime-1.22.1-cp310-cp310-macosx_13_0_universal2.whl (34.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.3/34.3 MB 57.6 MB/s  0:00:00
+Downloading fsspec-2025.7.0-py3-none-any.whl (199 kB)
+Downloading PyYAML-6.0.2-cp310-cp310-macosx_11_0_arm64.whl (171 kB)
+Downloading regex-2025.7.34-cp310-cp310-macosx_11_0_arm64.whl (285 kB)
+Downloading safetensors-0.6.2-cp38-abi3-macosx_11_0_arm64.whl (432 kB)
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 54.1 MB/s  0:00:00
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 60.8 MB/s  0:00:00
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Downloading filelock-3.19.1-py3-none-any.whl (15 kB)
+Downloading flatbuffers-25.2.10-py2.py3-none-any.whl (30 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading MarkupSafe-3.0.2-cp310-cp310-macosx_11_0_arm64.whl (12 kB)
+Downloading pillow-11.3.0-cp310-cp310-macosx_11_0_arm64.whl (4.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 38.9 MB/s  0:00:00
+Downloading protobuf-6.32.0-cp39-abi3-macosx_10_9_universal2.whl (426 kB)
+Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+Downloading charset_normalizer-3.4.3-cp310-cp310-macosx_10_9_universal2.whl (207 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
+Downloading certifi-2025.8.3-py3-none-any.whl (161 kB)
+Downloading scikit_learn-1.7.1-cp310-cp310-macosx_12_0_arm64.whl (8.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 52.1 MB/s  0:00:00
+Downloading joblib-1.5.2-py3-none-any.whl (308 kB)
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Building wheels for collected packages: pytrec-eval
+  Building wheel for pytrec-eval (setup.py): started
+  Building wheel for pytrec-eval (setup.py): finished with status 'done'
+  Created wheel for pytrec-eval: filename=pytrec_eval-0.5-cp310-cp310-macosx_11_0_arm64.whl size=66978 sha256=437712c6ae7032f8bcf51e6084de51d0f6260b081bcf9ac07ef0fb20b13d8f5b
+  Stored in directory: /private/var/folders/ps/sh80vxzn6c1_cg_9s3mr7mbm0000gq/T/pip-ephem-wheel-cache-n61rp0_j/wheels/51/3a/cd/dcc1ddfc763987d5cb237165d8ac249aa98a23ab90f67317a8
+Successfully built pytrec-eval
+Installing collected packages: pyjnius, mpmath, flatbuffers, urllib3, typing_extensions, threadpoolctl, sympy, safetensors, regex, pyyaml, pytrec-eval, protobuf, Pillow, MarkupSafe, joblib, idna, humanfriendly, hf-xet, fsspec, filelock, charset_normalizer, certifi, scikit-learn, requests, jinja2, coloredlogs, torch, onnxruntime, huggingface-hub, tokenizers, transformers, sentence-transformers
+
+Successfully installed MarkupSafe-3.0.2 Pillow-11.3.0 certifi-2025.8.3 charset_normalizer-3.4.3 coloredlogs-15.0.1 filelock-3.19.1 flatbuffers-25.2.10 fsspec-2025.7.0 hf-xet-1.1.9 huggingface-hub-0.34.4 humanfriendly-10.0 idna-3.10 jinja2-3.1.6 joblib-1.5.2 mpmath-1.3.0 onnxruntime-1.22.1 protobuf-6.32.0 pyjnius-1.6.1 pytrec-eval-0.5 pyyaml-6.0.2 regex-2025.7.34 requests-2.32.5 safetensors-0.6.2 scikit-learn-1.7.1 sentence-transformers-5.1.0 sympy-1.14.0 threadpoolctl-3.6.0 tokenizers-0.21.4 torch-2.8.0 transformers-4.55.4 typing_extensions-4.15.0 urllib3-2.5.0

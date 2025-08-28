@@ -1,0 +1,35 @@
+# === Python cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# === Jupyter/Colab ===
+.ipynb_checkpoints/
+
+# === Outputs (not needed in repo) ===
+outputs/
+*.trec
+*.run
+*.log
+
+# === Large/derived data (exclude) ===
+data/embeddings/
+data/collections/
+data/fine_tuned_retrievers_pyserini/
+data/Documents/
+data/bm25_*/
+data/*/raw/
+data/*/intermediate/
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
