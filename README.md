@@ -2,7 +2,7 @@
 # MultiPassage-RegulatoryRAG
 
 End-to-end retrieval (BM25 + dense + RRF) and optional Learning-to-Rank (LightGBM) for multi-passage regulatory QA.  
-Everything runs from clean setup ➜ indexing ➜ retrieval ➜ fusion ➜ feature extraction ➜ (optional) LTR ➜ evaluation @10.
+Everything runs from clean setup ➜ indexing ➜ retrieval ➜ fusion ➜ feature extraction ➜ LTR ➜ evaluation @10.
 
 ----------
 
